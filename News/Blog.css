@@ -1,0 +1,173 @@
+@font-face {
+	font-family: Fortnite;
+	src: url(../assets/font/Fortnite.otf);
+  }
+  @font-face {
+	font-family: BSmall;
+	src: url(../assets/font/burbank-small-bold.otf);
+  }
+  @font-face {
+	font-family: Guy;
+	src: url(../assets/font/LuckiestGuy-Regular.ttf);
+  }
+  @font-face {
+	font-family: Work Sans;
+	src: url(../assets/font/WorkSans-VariableFont_wght.ttf);
+  }
+  @font-face {
+	font-family: Work Sansitalic;
+	src: url(../assets/font/WorkSans-Italic-VariableFont_wght.ttf);
+  }
+.grid img {
+    width: 700px;
+    margin-bottom: 8px;
+    border-color: #1f1f1f;
+}
+.div-noticias {
+    background-color: #232427;
+    box-shadow: 0 1px 0 rgb(4 4 5 / 20%), 0 1.5px 0 rgb(6 6 7 / 5%), 0 2px 0 rgb(4 4 5 / 5%);
+    margin-bottom: 15px;
+    max-width: 700px;
+	height: 1100px;
+}
+.grid {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(3, auto);
+}
+p{
+    color: white;
+    font-family: Work Sans;
+}
+.name-news{
+	padding-left: 10px;
+	font-size: 35px;
+	text-align: left;
+	font-family: Work Sansitalic;
+}
+.fecha-blog{
+	padding-left: 10px;
+	font-size: 15px;
+	text-align: left;
+	font-family: Work Sans;
+	padding-top: 10px;
+}
+.body-news{
+    padding-left: 10px;
+	font-size: 15px;
+	text-align: left;
+	font-family: Work Sans;
+	padding-top: 10px;
+}
+.grid-creador img {
+    padding-top: 30px;
+    border-color: #1f1f1f;
+    width: 200px;
+    border-radius: 50%;
+}
+.div-creador {
+    background-color: #232427;
+    box-shadow: 0 1px 0 rgb(4 4 5 / 20%), 0 1.5px 0 rgb(6 6 7 / 5%), 0 2px 0 rgb(4 4 5 / 5%);
+    margin-bottom: 15px;
+    max-width: 300px;
+	height: 400px;
+}
+.name-creador{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+}
+.title-blog{
+    color: white;
+    text-align: center;
+}
+.social-block{
+	text-align: center;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    background-color: #121212;
+    width: 120px;
+    border-radius: 10px;
+    color: white;
+}
+#disqus_thread{
+  background-color: #232427;
+  margin-bottom: 8px;
+  padding: 10px;
+  width: 700px;
+}
+@media only screen and (min-width:350px) and (max-width:550px){
+    .grid img {
+        width: 320px;
+        margin-bottom: 8px;
+        border-color: #1f1f1f;
+    }
+    .div-noticias {
+        background-color: #232427;
+        box-shadow: 0 1px 0 rgb(4 4 5 / 20%), 0 1.5px 0 rgb(6 6 7 / 5%), 0 2px 0 rgb(4 4 5 / 5%);
+        margin-bottom: 15px;
+        max-width: 320px;
+        height: 600px;
+    }
+    p{
+        color: white;
+        font-family: Work Sans;
+    }
+    .name-news{
+        padding-left: 10px;
+        font-size: 20px;
+        text-align: left;
+        font-family: Work Sansitalic;
+    }
+    .fecha-blog{
+        padding-left: 10px;
+        font-size: 10px;
+        text-align: left;
+        font-family: Work Sans;
+        padding-top: 10px;
+    }
+    .body-news{
+        padding-left: 10px;
+        font-size: 9px;
+        text-align: left;
+        font-family: Work Sans;
+        padding-top: 10px;
+    }
+    .grid-creador img {
+        padding-top: 30px;
+        border-color: #1f1f1f;
+        width: 200px;
+    }
+    .div-creador {
+        background-color: #232427;
+        box-shadow: 0 1px 0 rgb(4 4 5 / 20%), 0 1.5px 0 rgb(6 6 7 / 5%), 0 2px 0 rgb(4 4 5 / 5%);
+        margin-bottom: 15px;
+        max-width: 320px;
+        height: 400px;
+        width: 400px;
+    }
+    .name-creador{
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 30px;
+    }
+    .title-blog{
+        color: white;
+        text-align: center;
+    }
+    .social-block{
+        text-align: center;
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+        background-color: #121212;
+        width: 120px;
+        border-radius: 10px;
+        color: white;
+    }
+  #disqus_thread{
+  background-color: #232427;
+  margin-bottom: 8px;
+  padding: 10px;
+  width: 320px;
+}
+}

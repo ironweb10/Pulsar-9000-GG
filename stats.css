@@ -1,0 +1,108 @@
+.title-stats-fortnite{
+    color: white;
+    font-family: burbank;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title-id{
+    color: rgb(39, 255, 71);
+    font-family: burbank;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.VICTORY-ROYALE {
+    color: white;
+    font-family: burbank;
+    margin-top: -96px;
+    /* text-align: center; */
+    margin-left: 83px;
+    text-transform: uppercase;
+}
+.barra-busqueda{
+    align-items: center;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 4px 8px;
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    border: 1px solid rgba(39, 255, 71, 0.523);
+    border-radius: 8px;
+    height: 35px;
+    outline: 0;
+    margin-top: 20px;
+    font-family: burbank;
+}
+.button-buscar{
+  position: relative;
+  padding: 6px 13px 6px 16px;
+  background: transparent;
+  color: rgb(255, 255, 255) !important;
+  font-weight: bold;
+  text-decoration: none;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 0 rgba(39, 255, 71, 0.523) inset, 0 -2px 0 #000 inset, 1px 2px 4px rgb(0 0 0 / 10%);
+  cursor: pointer;
+  width: 170px;
+  font-family: Burbank;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.item-title{
+    color: white;
+    font-family: burbank;
+    margin-top: 30px;
+    margin-left: 40px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.item-levelpass{
+    color: rgb(216, 255, 45);
+    font-family: burbank;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+.item-stats{
+    color: rgb(45, 143, 255);
+    font-family: burbank;
+    margin-top: 70px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 140px;
+}
+.item-wins-solo{
+    color: rgb(255, 255, 255);
+    font-family: burbank;
+    margin-top: -20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 70px;
+}
+.item-statsduo{
+    color: rgb(45, 143, 255);
+    font-family: burbank;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: -20px;
+    margin-left: 320px;
+}
+.item-wins-duo{
+    color: rgb(255, 255, 255);
+    font-family: burbank;
+    margin-top: -20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 250px;
+}
+.statsdiv{
+    width: 100%;
+    border-radius: 8px;
+    height: 550px;
+    background-color: rgb(35, 35, 35);
+}

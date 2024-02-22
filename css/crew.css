@@ -1,0 +1,180 @@
+@font-face {
+    font-family: Fortnite;
+    src: url(../assets/font/Fortnite.otf);
+}
+.item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    border-radius: 10px;
+    transition: transform .2s;
+  }
+  .item-img:hover{
+    transform: scale(1.1);
+  }
+.div-crew {
+    background-color: #232427;
+    width: 215px;
+    height: 280px;
+    grid-gap: 10%;
+    border-radius: 15px;
+}
+.crew-grid {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, auto);
+    justify-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: Fortnite;
+    font-size: 50px;
+    color: white;
+    }
+h2{
+  font-family: Fortnite;
+  font-size: 23px;
+  border-radius: 0;
+  padding: 0.5em!important;
+}
+P{
+    font-family: Fortnite;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.presentacion{
+    border-radius: 15px;
+}
+.rarity-common {
+    background-image: url(../assets/Icon/Common.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135;
+    height: 135;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .rarity-uncommon {
+    background: radial-gradient(circle,#30ce00,#005800);
+      border: 1px solid #5bfd00;
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .rarity-rare {
+    background: radial-gradient(circle,#2cc0ff,#143877);
+      border: 1px solid #37d0ff;
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .rarity-epic {
+    background-image: url(../assets/Icon/Epic.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135;
+    height: 135;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;;
+    border: 1px solid #d505ff;
+  }
+  
+  .rarity-legendary {
+    background-image: url(../assets/Icon/Legendary.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border: 1px solid #f68b20;
+  }
+  
+  .rarity-shadow {
+    background-image: url(../assets/Icon/Shadow.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .rarity-marvel {
+    background-image: url(../assets/Icon/Marvel.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #a90000;
+  }
+  
+  .rarity-icon {
+    background-image: url(../assets/Icon/Icon.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border: 1px solid #1be2e5;
+  }
+  .rarity-gaminglegends {
+    background-image: url(assets/Icon/Gaming.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    border: 1px solid #3730ff;
+  }
+@media only screen and (min-width:350px) and (max-width:550px){
+    .item-img {
+        max-width: 120px;
+        border-radius: 5px;
+        border-color: #1f1f1f;
+    }
+    .div-crew {
+        background-color: #070a16;
+        width: 120px;
+      height: 190px;
+        grid-gap: 10%;
+        border-radius: 15px;
+    }
+    .crew-grid {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2, auto);
+        justify-items: center;
+        justify-content: center;
+    }
+    h1{
+        font-family: Fortnite;
+        font-size: 30px;
+        color: white;
+        }
+    h2{
+        font-family: Fortnite;
+    }
+    P{
+        font-family: Fortnite;
+        font-size: 30px;
+    }
+    .presentacion{
+        border-radius: 15px;
+        width: 250px;
+    } 
+}

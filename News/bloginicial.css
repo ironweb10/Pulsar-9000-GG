@@ -1,0 +1,101 @@
+@font-face {
+	font-family: Fortnite;
+	src: url(../assets/font/Fortnite.otf);
+  }
+  @font-face {
+	font-family: BSmall;
+	src: url(../assets/font/burbank-small-bold.otf);
+  }
+  @font-face {
+	font-family: Guy;
+	src: url(../assets/font/LuckiestGuy-Regular.ttf);
+  }
+  @font-face {
+	font-family: Work Sans;
+	src: url(../assets/font/WorkSans-VariableFont_wght.ttf);
+  }
+  @font-face {
+	font-family: Work Sansitalic;
+	src: url(../assets/font/WorkSans-Italic-VariableFont_wght.ttf);
+  }
+.grid img {
+  max-width: 100%;
+    margin-bottom: 8px;
+    border-color: #1f1f1f;
+}
+a{
+  text-decoration: none;
+}
+.div-noticias {
+    background-color: #232427;
+    box-shadow: 0 1px 0 rgb(4 4 5 / 20%), 0 1.5px 0 rgb(6 6 7 / 5%), 0 2px 0 rgb(4 4 5 / 5%);
+    margin-bottom: 15px;
+    max-width: 380px;
+	  height: 370px;
+    justify-content: center!important;
+    transition: transform .2s;
+}
+.div-noticias:hover{
+    transform: translateY(-1%);
+}
+.grid {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center!important;
+}
+p{
+    color: white;
+    font-family: Work Sans;
+}
+.name-news{
+	padding-left: 10px;
+	font-size: 20px;
+	text-align: left;
+	font-family: Work Sans;
+}
+.fecha-blog{
+	padding-left: 10px;
+	font-size: 15px;
+	text-align: left;
+	font-family: Work Sans;
+	padding-top: 10px;
+}
+@media only screen and (min-width:350px) and (max-width:550px){
+  .grid img {
+    width: 300px;
+    margin-bottom: 8px;
+    border-color: #1f1f1f;
+}
+.div-noticias {
+    background-color: #232427;
+    box-shadow: 0 1px 0 rgb(4 4 5 / 20%), 0 1.5px 0 rgb(6 6 7 / 5%), 0 2px 0 rgb(4 4 5 / 5%);
+    margin-bottom: 15px;
+    max-width: 300px;
+	height: 275px;
+    justify-content: center!important;
+}
+.grid {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center!important;
+}
+p{
+    color: white;
+    font-family: Work Sans;
+}
+.name-news{
+	padding-left: 10px;
+	font-size: 15px;
+	text-align: left;
+	font-family: Work Sans;
+}
+.fecha-blog{
+	padding-left: 10px;
+	font-size: 15px;
+	text-align: left;
+	font-family: Work Sans;
+	padding-top: 10px;
+}
+}

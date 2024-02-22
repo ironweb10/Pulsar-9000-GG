@@ -1,0 +1,138 @@
+.blog-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    width: 100%;
+}
+#name{
+    color: #ffff;
+    font-family: burbank;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-top: 20px;
+}#discriminator{
+    color: rgb(0, 157, 255);
+    font-family: burbank;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+#id{
+    color: #ffff;
+    font-family: burbank;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-top: 20px;
+}
+#avatar{
+    border-radius: 999px;
+    border: 2px solid #338bff;;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.info-blog1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.info-blog2 {
+    background-color: rgb(43, 43, 43);
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(0, 157, 255);
+}
+.boton {
+    background-color: hwb(0 6% 6%);
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'burbank';
+    border-radius: 10px;
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.boton2{
+    background-color: hwb(209 6% 6%);
+    border-radius: 999px;
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.etc{
+    color: #ffff;
+    font-family: burbank;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-top: 30px;
+    border-top: 2px solid #338bff;
+    padding-top: 30px;
+}
+a {
+    color: inherit;
+}
+.Calendar_card__LM4Kb {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 175px;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.659);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    overflow-y: hidden;
+    cursor: pointer;
+    font-family: NunitoBold;
+    color: white;
+    transition: transform .25s linear;
+    opacity: 1;
+}
+.Calendar_cardCopy__mFcbs {
+    height: 100%;
+    margin: auto 0;
+    padding: 1em 2em;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid #338bff;
+}
+.Calendar_cardCopy__mFcbs h4{
+    color: #ffff;
+    font-family: burbank;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-decoration: underline aqua;
+}
+.Calendar_image__UMkeM {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.Calendar_image__UMkeM div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: 50%;
+    transition: transform .25s linear;
+}
+.Calendar_card__LM4Kb:hover .Calendar_image__UMkeM div {
+    transform: scale(1.05);
+}

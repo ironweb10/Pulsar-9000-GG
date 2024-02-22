@@ -1,0 +1,426 @@
+@font-face {
+    font-family: Fortnite;
+    src: url(../assets/font/Fortnite.otf);
+  }
+  @font-face {
+    font-family: Guy;
+    src: url(../assets/font/LuckiestGuy-Regular.ttf);
+  }
+  @font-face {
+    font-family: Work Sans;
+    src: url(../assets/font/WorkSans-VariableFont_wght.ttf);
+  }
+  @font-face {
+    font-family: Tungsten;
+    src: url(../assets/font/Tungsten-Bold.ttf);
+  }
+  * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  }
+  .item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    border-radius: 10px;
+    transition: transform .2s;
+  }
+  .item-img:hover{
+    transform: scale(1.1);
+  }
+  .cosmetics-grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(6, auto);
+    justify-items: center;
+    justify-content: center;
+    background-color: #232427;
+    border-radius: 15px;
+    width: 70em;
+    padding: 25px;
+  }
+  h1{
+    font-size: 3em;
+    font-family: Work Sans;
+    color: white;
+    margin-bottom: 0em;
+  }
+  p{
+    font-family: Work Sans;
+    font-size: 1.3em;
+    padding:15px;
+    text-shadow: 0 0 10px rgb(0 0 0 / 25%);
+  }
+  .rarity-common {
+    background: radial-gradient(circle,#b1b1b1,#2d3237);
+    border: 1px solid #b1b1b1;
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135;
+    height: 135;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .rarity-uncommon {
+    background: radial-gradient(circle,#30ce00,#005800);
+      border: 1px solid #5bfd00;
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .rarity-rare {
+    background: radial-gradient(circle,#2cc0ff,#143877);
+      border: 1px solid #37d0ff;
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .rarity-epic {
+    background: radial-gradient(circle,#9d19ff,#4c07a6);
+    border: 1px solid #d505ff;
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .rarity-legendary {
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: radial-gradient(circle,#ff960e,#851400);
+    border: 1px solid #f68b20;
+  }
+  
+  .rarity-shadow {
+    background-image: url(../assets/Icon/Shadow.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+  }
+  
+  .rarity-marvel {
+    background-image: url(../assets/Icon/Marvel.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #a90000;
+  }
+  
+  .rarity-icon {
+    background-image: url(../assets/Icon/Icon.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border: 1px solid #1be2e5;
+  }
+  .rarity-Dc {
+    background-image: url(../assets/Icon/DC.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border: 1px solid #0032e0;
+  }
+  .rarity-gaminglegends {
+    background-image: url(../assets/Icon/Gaming.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #3730ff;
+  }
+  .rarity-starwars {
+    background-image: url(../assets/Icon/Starwars.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #ffaf00;
+  }
+  .rarity-Cube {
+    background-image: url(../assets/Icon/Cube.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #ff148e;
+  }
+  .rarity-frozen {
+    background-image: url(../assets/Icon/Frozen.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #afd7ff;
+  }
+  .rarity-lava {
+    background-image: url(../assets/Icon/Lava.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #f49d09;
+  }
+  .rarity-slurp {
+    background-image: url(../assets/Icon/Slurp.png);
+    border-radius: 10px;
+    max-width: 135px;
+    max-height: 135px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #03f2ed;
+  }
+  .modal-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,.85);
+      z-index: 1000042 !important;
+      transition: opacity .125s;
+      overflow-x: hidden;
+      overflow-y: auto
+  }
+
+  @media only screen and (min-width:350px) and (max-width:550px){
+    .item-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 135px;
+        border-radius: 10px;
+        transition: transform .2s;
+      }
+      .item-img:hover{
+        transform: scale(1.1);
+      }
+      .cosmetics-grid {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, auto);
+        justify-items: center;
+        justify-content: center;
+        background-color: #232427;
+        border-radius: 15px;
+        width: 20em;
+        padding: 25px;
+      }
+      h1{
+        font-size: 3em;
+        font-family: Work Sans;
+        color: white;
+        padding:15px;
+        text-align:left;
+        margin-bottom: 0em;
+      }
+      p{
+        font-family: Work Sans;
+        font-size: 1.3em;
+        text-align:left;
+        padding:15px;
+        text-shadow: 0 0 10px rgb(0 0 0 / 25%);
+      }
+      .rarity-common {
+        background: radial-gradient(circle,#b1b1b1,#2d3237);
+        border: 1px solid #b1b1b1;
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135;
+        height: 135;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      
+      .rarity-uncommon {
+        background: radial-gradient(circle,#30ce00,#005800);
+          border: 1px solid #5bfd00;
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135px;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      
+      .rarity-rare {
+        background: radial-gradient(circle,#2cc0ff,#143877);
+          border: 1px solid #37d0ff;
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135px;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      
+      .rarity-epic {
+        background: radial-gradient(circle,#9d19ff,#4c07a6);
+        border: 1px solid #d505ff;
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135px;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      
+      .rarity-legendary {
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135px;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background: radial-gradient(circle,#ff960e,#851400);
+        border: 1px solid #f68b20;
+      }
+      
+      .rarity-shadow {
+        background-image: url(../assets/Icon/Shadow.png);
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135px;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid #fff;
+      }
+      
+      .rarity-marvel {
+        background-image: url(../assets/Icon/Marvel.png);
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135px;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 2px solid #a90000;
+      }
+      
+      .rarity-icon {
+        background-image: url(../assets/Icon/Icon.png);
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        border: 1px solid #1be2e5;
+      }
+      .rarity-Dc {
+        background-image: url(../assets/Icon/DC.png);
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        border: 1px solid #0032e0;
+      }
+      .rarity-gaminglegends {
+        background-image: url(../assets/Icon/Gaming.png);
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135px;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid #3730ff;
+      }
+      .rarity-starwars {
+        background-image: url(../assets/Icon/Starwars.png);
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135px;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid #ffaf00;
+      }
+      .rarity-Cube {
+        background-image: url(../assets/Icon/Cube.png);
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135px;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid #ff148e;
+      }
+      .rarity-frozen {
+        background-image: url(../assets/Icon/Frozen.png);
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135px;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid #afd7ff;
+      }
+      .rarity-lava {
+        background-image: url(../assets/Icon/Lava.png);
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135px;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid #f49d09;
+      }
+      .rarity-slurp {
+        background-image: url(../assets/Icon/Slurp.png);
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135px;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid #03f2ed;
+      }
+}

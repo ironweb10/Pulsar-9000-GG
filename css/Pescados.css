@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Fortnite;
+    src: url(../assets/font/Fortnite.otf);
+}
+@font-face {
+    font-family: Guy;
+    src: url(../assets/font/LuckiestGuy-Regular.ttf);
+}
+@font-face {
+    font-family: Work Sans;
+    src: url(../assets/font/WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Work Sansitalic;
+    src: url(../assets/font/WorkSans-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Tungsten;
+    src: url(../assets/font/Tungsten-Bold.ttf);
+}
+.grid img {
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    border-color: #1f1f1f;
+}
+.div-noticias {
+    background-color: #232427;
+    box-shadow: 0 1px 0 rgb(4 4 5 / 20%), 0 1.5px 0 rgb(6 6 7 / 5%), 0 2px 0 rgb(4 4 5 / 5%);
+    padding: 6px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    max-width: 320px;
+    justify-content: center!important;
+    width: 210px;
+    height: 350px;
+    transition: transform .2s;
+}
+.div-noticias:hover{
+    transform: translateY(-3%);
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+.grid {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center!important;
+}
+h2{
+    color: white;
+    margin-bottom: 16px;
+}
+.title{
+    color: rgb(0, 153, 255);
+    font-family: Work Sans;
+    margin-top: 10px;
+}
+.description{
+    color: rgb(228, 228, 228);
+    text-align: justify;
+    font-family: Work Sans;
+    font-style: italic;
+    margin-top: 7px;
+}
+@media only screen and (min-width:350px) and (max-width:550px){
+  .grid img {
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    border-color: #1f1f1f;
+}
+.div-noticias {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: #232427;
+    max-width: 140px;
+}
+.grid {
+  padding: 30px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, auto);
+    justify-items: center;
+    justify-content: center;
+}
+h2{
+    color: white;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+.title{
+    color: rgb(0, 153, 255);
+    text-align: justify;
+    font-family: Work Sans;
+}
+.description{
+    color: rgb(228, 228, 228);
+    text-align: justify;
+    font-family: Work Sans;
+    font-style: italic;
+    margin-top: 30px;
+}
+}

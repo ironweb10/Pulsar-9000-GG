@@ -1,0 +1,105 @@
+.accordion {
+  background-color: #232427;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 670px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.2s;
+    margin-top: 10px;
+    font-family: Work Sans;
+    border-radius: 0.5em;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #232427; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #151517;
+    overflow: hidden;
+    width: 670px;
+    padding-left: 8px;
+    border-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  p{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    text-align: left;
+    padding: 8px 15px;
+}
+.Privacy{
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.POLICY{
+  color: white;
+  font: italic 52px Fortnite;
+  padding-top: 50px;
+  text-align: left;
+  padding-left: 50px;
+  border-bottom: 1px solid rgba(255,255,255,.15);
+}
+.fas{
+  position: relative;
+  left: 437px;
+}
+
+@media only screen and (min-width:350px) and (max-width:550px){
+  .accordion {
+    background-color: #232427;
+      color: white;
+      cursor: pointer;
+      width: 324px;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.2s;
+      border-radius: 0.5rem;
+      margin-top: 10px;
+      font-family: Work Sans;
+    }
+    
+    .active, .accordion:hover {
+      background-color: #232427; 
+      border-radius: 0px;
+    }
+    
+    .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: #151517;
+      overflow: hidden;
+      width: 324px;
+      padding-left: 8px;
+      border-bottom: 10px;
+    }
+    p{
+      color: rgb(255, 255, 255);
+      font-family: Work Sans;
+      text-align: left;
+      padding: 8px 15px;
+  }
+  .Privacy{
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  .POLICY{
+    color: white;
+    font: italic 52px Fortnite;
+    padding-top: 50px;
+    border-bottom: 1px solid rgba(255,255,255,.15);
+  }
+}

@@ -1,0 +1,4 @@
+#EXTM3U
+#EXTINF: -1, boing
+#EXTVLCOPT:http-referrer="mitele"
+https://directos.mitele.es/orilinear23/live/linear23/playlist/playlist.isml/ctv.m3u8?t=1&hdnts=st=1696967648~exp=1696967827~acl=/*~hmac=42d5316fc7db3168ffe7fcbb88c956c03f77721082364d6d823f1082e4ca7ee2

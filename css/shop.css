@@ -1,0 +1,358 @@
+@font-face {
+  font-family: Fortnite;
+  src: url(../assets/font/Fortnite.otf);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  }
+.item-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+}
+.pavos-img{
+  width: 20px;
+}
+.div-shop {
+  width: 165px;
+  height: 300px;
+  grid-gap: 10%;
+  border-radius: 15px;
+}
+.shop-grid {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(6, auto);
+  justify-items: center;
+  justify-content: center;
+}
+.shop-timer {
+  text-align: end;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-family:Fortnite;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0);
+}
+h1, h2{
+  font-family: Work Sansitalic;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+P{
+  font-size: 23px;
+  color: #fff !important;
+  padding: 8px 0 6px;
+  background: #212225;
+  text-align: center;
+  border-radius: 0;
+  font-family:BSmall;
+  font-style: italic;
+  text-shadow: 0 5px 3px rgb(0 0 0 / 20%);
+  text-transform: uppercase;
+}
+.name-cosmetic{
+  font-size: 12px;
+  padding: 8px 0 6px;
+  background: rgba(0,0,0,.5);
+  color: #fff !important;
+  text-align: center;
+  border-top: 4px solid #ffffff;
+  z-index: 0;
+  border-radius: 0;
+  font-family:BSmall;
+  font-style: italic;
+  text-shadow: 0 5px 3px rgb(0 0 0 / 20%);
+  text-transform: uppercase;
+}
+.tienda-titulo{
+font-family:BSmall;
+font-style: italic;
+font-size: 50px;
+color: white;
+font-family: Fortnite;
+letter-spacing: .5px;
+}
+.rarity-uncommon {
+  background: radial-gradient(circle,#30ce00,#005800);
+    border: 1px solid #5bfd00;
+    border-radius: 10px;
+    max-width: 180px;
+    max-height: 135;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rarity-rare {
+  background: radial-gradient(circle,#2cc0ff,#143877);
+    border: 1px solid #37d0ff;
+    border-radius: 10px;
+    max-width: 180px;
+    height: 135;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rarity-epic {
+  background-image: url(../assets/Icon/Epic.png);
+  border-radius: 10px;
+  max-width: 180px;
+  max-height: 135;
+  height: 135;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid #d505ff;
+}
+
+.rarity-legendary {
+  background-image: url(../assets/Icon/Legendary.png);
+  border-radius: 10px;
+  max-width: 180px;
+  max-height: 135;
+  height: 135;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid #f68b20;
+}
+
+.rarity-shadow {
+  background-image: url(../assets/Icon/Shadow.png);
+  border-radius: 10px;
+  max-width: 180px;
+  max-height: 135;
+  height: 135;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rarity-marvel {
+  background-image: url(../sassets/Icon/Marvel.png);
+  border-radius: 10px;
+  max-width: 180px;
+  max-height: 135;
+  height: 135;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid #a90000;
+}
+
+.rarity-icon {
+  background-image: url(assets/Icon/Icon.png);
+  border-radius: 10px;
+  max-width: 180px;
+  max-height: 135;
+  height: 135;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid #1be2e5;
+}
+.rarity-gaminglegends {
+  background-image: url(assets/Icon/Gaming.png);
+  border-radius: 10px;
+  max-width: 180px;
+  max-height: 135px;
+  overflow: hidden;
+  border: 1px solid #3730ff;
+}
+@media only screen and (min-width:350px) and (max-width:550px){
+  * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      }
+  .item-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 135px;
+  }
+  .pavos-img{
+      width: 20px;
+  }
+  .div-shop {
+      background-color: #232427;
+      width: 165px;
+      height: 300px;
+      grid-gap: 10%;
+      border-radius: 15px;
+  }
+  .shop-grid {
+      display: grid;
+      grid-gap: 35px;
+      grid-template-columns: repeat(2, auto);
+      justify-items: center;
+      justify-content: center;
+  }
+  .shop-timer {
+    text-align: end;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family:Fortnite;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  h1, h2{
+    font-family: Work Sansitalic;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+  }
+  P{
+    font-size: 23px;
+    color: #fff !important;
+    padding: 8px 0 6px;
+    background: #212225;
+    text-align: center;
+    border-radius: 0;
+    font-family:BSmall;
+    font-style: italic;
+    text-shadow: 0 5px 3px rgb(0 0 0 / 20%);
+    text-transform: uppercase;
+  }
+  .name-cosmetic{
+    font-size: 12px;
+    padding: 8px 0 6px;
+    background: rgba(0,0,0,.5);
+    color: #fff !important;
+    text-align: center;
+    border-top: 4px solid #bdbdbd;
+    border-radius: 0;
+    font-family:BSmall;
+    font-style: italic;
+    text-shadow: 0 5px 3px rgb(0 0 0 / 20%);
+    text-transform: uppercase;
+  }
+  .tienda-titulo{
+      font-family: Fortnite;
+      font-size: 50px;
+      color: white;
+  }
+  .rarity-uncommon {
+      background: radial-gradient(circle,#30ce00,#005800);
+        border: 1px solid #5bfd00;
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135;
+        height: 135;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .rarity-rare {
+      background: radial-gradient(circle,#2cc0ff,#143877);
+        border: 1px solid #37d0ff;
+        border-radius: 10px;
+        max-width: 135px;
+        max-height: 135;
+        height: 135;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .rarity-epic {
+      background-image: url(../assets/Icon/Epic.png);
+      border-radius: 10px;
+      max-width: 135px;
+      max-height: 135;
+      height: 135;
+      overflow: hidden;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: 1px solid #d505ff;
+    }
+    
+    .rarity-legendary {
+      background-image: url(../assets/Icon/Legendary.png);
+      border-radius: 10px;
+      max-width: 135px;
+      max-height: 135;
+      height: 135;
+      overflow: hidden;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: 1px solid #f68b20;
+    }
+    
+    .rarity-shadow {
+      background-image: url(../assets/Icon/Shadow.png);
+      border-radius: 10px;
+      max-width: 135px;
+      max-height: 135;
+      height: 135;
+      overflow: hidden;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    .rarity-marvel {
+      background-image: url(../sassets/Icon/Marvel.png);
+      border-radius: 10px;
+      max-width: 135px;
+      max-height: 135;
+      height: 135;
+      overflow: hidden;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: 2px solid #a90000;
+    }
+    
+    .rarity-icon {
+      background-image: url(assets/Icon/Icon.png);
+      border-radius: 10px;
+      max-width: 135px;
+      max-height: 135;
+      height: 135;
+      overflow: hidden;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: 1px solid #1be2e5;
+    }
+    .rarity-gaminglegends {
+      background-image: url(assets/Icon/Gaming.png);
+      border-radius: 10px;
+      max-width: 135px;
+      max-height: 135px;
+      overflow: hidden;
+      border: 1px solid #3730ff;
+    }
+    .code{
+      right: 128px;
+      position: absolute;
+      background: #e5ff00;
+      font: italic 15px BSmall,sans-serif;
+      text-transform: uppercase;
+      -webkit-clip-path: polygon(0 6%,100% 0,100% 100%,0 95%);
+      clip-path: polygon(0 6%,100% 0,100% 100%,0 95%);
+      color: #000000;
+      text-shadow: 0 5px 3px rgb(255 255 255 / 20%);
+      top: 201px;
+    }
+    .banner{
+      position: absolute;
+      padding: 4px 8px;
+      background: #ce0365;
+      font: italic 15px BSmall,sans-serif;
+      text-transform: uppercase;
+      -webkit-clip-path: polygon(0 6%,100% 0,100% 100%,0 95%);
+      clip-path: polygon(0 6%,100% 0,100% 100%,0 95%);
+      z-index: 3;
+      top: 339px;
+      right: 301px;
+      color: white;
+    }
+  }

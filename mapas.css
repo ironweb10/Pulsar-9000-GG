@@ -1,0 +1,41 @@
+.img-map{
+    width: 100%;
+}
+.div-map{
+    border: solid 3px #ffff;
+    background-color: transparent;
+    justify-content: center!important;
+    width: 100%;
+
+    /* transition: transform .25s linear; */
+}
+/* .div-map:hover{
+    transform: scale(1.05);
+} */
+.grid{
+    margin-top: 15px;
+    margin-left: 13px;
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center!important;
+}
+.div-t{
+    position: absolute;
+}
+.div-map2{
+    text-align: justify;
+    color: #ffff;
+    font-family: burbank;
+    text-align: center;
+}
+.title-map{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.mapas-e{
+    color: #ffff;
+    font-family: burbank;
+    text-align: center;
+    font-size: 35px;
+}

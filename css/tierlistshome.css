@@ -1,0 +1,82 @@
+.tierlists {
+    width: 270px;
+    background-color: #232427;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.59);
+    transition: transform .2s;
+}
+.tierlists:hover{
+    transform: translateY(-3%);
+}
+.tierlists h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: Work Sans;
+}
+.tierlists p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+  
+a {
+    color: white;
+    text-decoration: none;
+} 
+.tierlists img{
+    width: 220px;
+    border-radius: 10px;
+}
+
+.tierlistGrid {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(4, auto);
+  justify-items: center;
+  justify-content: center;
+}
+.messege{
+    color: white;
+    font-family: Work Sansitalic;
+}
+.messege a{
+    color: rgb(79, 164, 255);
+}
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}

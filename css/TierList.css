@@ -1,0 +1,102 @@
+@font-face {
+  font-family: BSmall;
+  src: url(../assets/font/burbank-small-bold.otf);
+}
+@font-face {
+  font-family: Fortnite;
+  src: url(../assets/font/Fortnite.otf);
+}
+@font-face {
+  font-family: Guy;
+  src: url(../assets/font/LuckiestGuy-Regular.ttf);
+}
+@font-face {
+  font-family: Work Sans;
+  src: url(../assets/font/WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Work Sansitalic;
+  src: url(../assets/font/WorkSans-Italic-VariableFont_wght.ttf);
+}
+h1{
+  font-family: Fortnite;
+  color: white;
+}
+#addCard {
+    background: none;
+    border: none;
+    grid-gap: 25px;
+    font-size: 40px;
+  }
+  
+  #board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 5px;
+    border-radius: 10px;
+  }
+  
+  .row {
+    display: flex;
+    width: 85vw;
+    height: 85px; 
+    background-color: #232427;
+    border-radius: 10px;
+  }
+  
+  .label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px; 
+    width: 85px;
+    background-color: green;  
+    border-radius: 10px;
+  }
+  .label h1{
+    color: rgb(48, 48, 48);
+    font-family: BSmall;
+    font-size: 30px;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    width: 85px;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .bank-img:hover{
+    cursor: -webkit-grab;
+    cursor: grab;
+  }
+  
+  #bank {
+    width: 85vw;
+    height: 160px;
+    background-color: #232427;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+    padding: 1.75em 1em 1em 1em;
+    overflow-x: scroll;
+  }
+.bank-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    width: 78px;
+    height: 78px; 
+    border: 1px solid #1be2e5;
+  }
